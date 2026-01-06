@@ -7,7 +7,7 @@ const stats = [
   { id: 1, icon: GraduationCap, value: 15000, suffix: "+", label: "Children Educated" },
   { id: 2, icon: Users, value: 500, suffix: "+", label: "Volunteers" },
   { id: 3, icon: MapPin, value: 50, suffix: "+", label: "Villages Reached" },
-  { id: 4, icon: Heart, value: 2, suffix: "+", label: "Years of Service" },
+  { id: 4, icon: Heart, value: 5, suffix: "+", label: "Years of Service" },
 ];
 
 const CountUp = ({ end, suffix }) => {
