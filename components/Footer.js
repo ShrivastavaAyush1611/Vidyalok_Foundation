@@ -21,9 +21,9 @@ const Footer = () => {
   const socialLinks = [
     { icon: <Facebook size={20} />, href: "#" },
     { icon: <Twitter size={20} />, href: "#" },
-    { icon: <Instagram size={20} />, href: "#" },
+    { icon: <Instagram size={20} />, href: "https://www.instagram.com/vidyalok_foundation_katni/" },
     { icon: <Linkedin size={20} />, href: "#" },
-    { icon: <Youtube size={20} />, href: "#" },
+    { icon: <Youtube size={20} />, href: "https://youtube.com/@vidyalokfoundation?si=FwfH0omgHZ1DvrTu" },
   ];
 
   const quickLinks = [
