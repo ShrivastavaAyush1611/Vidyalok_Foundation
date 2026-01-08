@@ -78,7 +78,7 @@ const Contact = () => {
                 <div key={i} className="flex items-start gap-4">
                   <div className="bg-white/20 p-3 rounded-xl"><item.icon size={24} /></div>
                   <div>
-                    <p className="text-white/70 text-sm uppercase tracking-widest font-bold">{item.label}</p>
+                    <p className="text-white text-sm uppercase tracking-widest font-bold">{item.label}</p>
                     <p className="text-lg font-medium">{item.val}</p>
                   </div>
                 </div>

@@ -7,7 +7,10 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[90vh] md:min-h-screen flex items-center pt-20 overflow-hidden">
+    <section
+      className="relative min-h-[90vh] md:min-h-screen flex items-center pt-20 overflow-hidden"
+      id="/"
+    >
       {/* High-Performance Optimized Background */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -28,7 +31,8 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl sm:text-5xl md:text-7xl font-bold text-white leading-tight font-serif mb-6"
           >
-            Together Creating<br />
+            Together Creating
+            <br />
             <span className="text-[#E67E22]">Hope for Every Life</span>
           </motion.h1>
 
@@ -44,8 +48,9 @@ const Hero = () => {
               Donate Now
             </Button> */}
             <Button
+              asChild
               variant="outline"
-              className="w-full bg-transparent sm:w-auto border-2 border-white text-white hover:bg-white/10 px-8 py-6 rounded-xl font-bold text-lg"
+              className="px-8 py-6 rounded-xl font-bold text-lg bg-[#e48e43]"
             >
               <Link href="#about">Learn More</Link>
             </Button>

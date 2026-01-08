@@ -19,11 +19,11 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: <Facebook size={20} />, href: "#" },
-    { icon: <Twitter size={20} />, href: "#" },
-    { icon: <Instagram size={20} />, href: "https://www.instagram.com/vidyalok_foundation_katni/" },
-    { icon: <Linkedin size={20} />, href: "#" },
-    { icon: <Youtube size={20} />, href: "https://youtube.com/@vidyalokfoundation?si=FwfH0omgHZ1DvrTu" },
+    { icon: <Facebook size={20} />, href: "#",label:"Facebook"},
+    { icon: <Twitter size={20} />, href: "#",label:"Twiter"},
+    { icon: <Instagram size={20} />, href: "https://www.instagram.com/vidyalok_foundation_katni/",label:"Instagram" },
+    { icon: <Linkedin size={20} />, href: "#",label:"Linkedin"},
+    { icon: <Youtube size={20} />, href: "https://youtube.com/@vidyalokfoundation?si=FwfH0omgHZ1DvrTu",label:"Youtube" },
   ];
 
   const quickLinks = [
@@ -60,7 +60,7 @@ const Footer = () => {
               {/* Replace with your actual logo path */}
               <img src="/logo.jpeg" alt="Vidyalok Logo" className="h-12 w-auto" />
             </div>
-            <p className="text-gray-400 leading-relaxed">
+            <p className="text-gray-200 leading-relaxed">
               Empowering underprivileged communities through quality education and holistic development programs.
             </p>
             <div className="flex gap-3">
@@ -68,6 +68,7 @@ const Footer = () => {
                 <Link 
                   key={index} 
                   href={social.href}
+                  aria-label={social.label}
                   className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#E67E22] transition-all duration-300"
                 >
                   {social.icon}

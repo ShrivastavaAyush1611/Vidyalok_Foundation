@@ -10,7 +10,7 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 export const metadata = {
   title: {
     default: "Vidyalok Welfare Foundation",
-    template: "%s | Vidyalok Welfare Foundation",
+    template: "Vidyalok Welfare Foundation",
   },
   description: "Vidyalok Welfare Foundation provides quality education, women empowerment, and healthcare initiatives to underprivileged communities in India.",
   keywords: [
@@ -22,15 +22,15 @@ export const metadata = {
   alternates: { canonical: "https://vidyalok.org" },
   // 1. ADDED ICONS
   icons: {
-    icon: "/logo.jpeg", 
-    apple: "/apple-icon.png",
+    icon: "https://vidyalok.org/logo.jpeg", 
+    apple: "https://vidyalok.org/apple-icon.png",
   },
   openGraph: {
     title: "Vidyalok Welfare Foundation",
     description: "Nurturing minds and transforming lives through holistic development programs.",
     url: "https://vidyalok.org",
     siteName: "Vidyalok Foundation",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    images: [{ url: "https://vidyalok.org/og-image.jpg", width: 1200, height: 630 }],
     locale: "en_IN",
     type: "website",
   },
@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
     "name": "Vidyalok Welfare Foundation",
     "alternateName": "Vidyalok Foundation",
     "url": "https://vidyalok.org",
-    "logo": "https://vidyalok.org/logo.jpg", // Ensure this matches your public folder
+    "logo": "https://vidyalok.org/logo.jpeg", 
     "description": "A non-profit organization dedicated to providing quality welfare and holistic development to children in India.",
     "contactPoint": {
       "@type": "ContactPoint",

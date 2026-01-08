@@ -40,7 +40,7 @@ const ImpactSection = () => {
     <section id="our-impacts" className="relative overflow-hidden bg-[#3b8749] py-16 md:py-24 px-6 text-white scroll-mt-20">
       <div className="max-w-7xl mx-auto text-center relative z-10">
         <h2 className="text-3xl md:text-5xl font-bold mb-4 font-serif">Our Global Impact</h2>
-        <p className="text-sm sm:text-base md:text-lg opacity-90 mb-12 max-w-2xl mx-auto">
+        <p className="text-sm sm:text-base md:text-lg text-white mb-12 max-w-2xl mx-auto">
           Together, we are making a measurable difference in the lives of thousands.
         </p>
 
