@@ -30,7 +30,7 @@ export const metadata = {
     description: "Nurturing minds and transforming lives through holistic development programs.",
     url: "https://vidyalok.org",
     siteName: "Vidyalok Foundation",
-    images: [{ url: "https://vidyalok.org/og-image.jpg", width: 1200, height: 630 }],
+    images: [{ url: "https://vidyalok.org/logo.jpeg", width: 1200, height: 630 }],
     locale: "en_IN",
     type: "website",
   },
